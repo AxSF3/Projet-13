@@ -23,6 +23,8 @@ body {
 
 .bg-dark {
   background-color: #12002b;
+  padding-top: 10px;
+  padding-bottom: 150px;
 }
 
 .sr-only {
