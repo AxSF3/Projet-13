@@ -13,7 +13,7 @@ function Header() {
   const onLogout = () => {
     dispatch(logout());
     dispatch(reset());
-    navigate("/");
+    navigate("/login");
     toast.info("Log out done", {
       position: "top-right",
       autoClose: 5000,
